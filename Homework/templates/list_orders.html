@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for car in all %}
+        <a>{{car.brand}}</a>
+        <a>{{car.model}}</a>
+        <a>{{ car.hp }}</a>
+        <br>
+    {% endfor %}
+
+</body>
+</html>
