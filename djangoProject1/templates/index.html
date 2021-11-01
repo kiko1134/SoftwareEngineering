@@ -15,17 +15,17 @@
 
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Time</th>
-      <th scope="col">Destination</th>
-      <th scope="col">Train#</th>
-      <th scope="col">Status</th>
+      <th>Time</th>
+      <th>Destination</th>
+      <th>Train#</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
 
   {% for resp in response%}
       <tr>
-          <th scope="row"></th>
+{#          <th scope="row"></th>#}
           <td>{{ resp.time}}</td>
           <td>{{ resp.destination}}</td>
           <td>{{ resp.train}}</td>
